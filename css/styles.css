@@ -1,29 +1,99 @@
 * {
   box-sizing: border-box;
 }
-
 html {
   scroll-behavior: smooth;
 }
-
 a {
   text-decoration: none;
   color: inherit;
 }
-
 ul {
   list-style: none;
   padding-left: 0;
   margin-top: 0;
   margin-bottom: 0;
 }
-
 img {
   display: block;
   max-width: 100%;
 }
-
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: "Lexend Deca", sans-serif;
+  color: white;
+}
+
+.box-cars {
+  width: 100%;
+  height: 442px;
+  padding: 49px 48px;
+}
+.box-sedan {
+  background-color: #e28625;
+}
+.box-suvs {
+  background-color: #006971;
+}
+.box-luxury {
+  background-color: #004140;
+}
+
+.image-box {
+  width: 64px;
+  height: 40px;
+}
+.car-image {
+  position: relative;
+  left: 20px;
+  top: -30px;
+}
+.circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.color-sedan {
+  background-color: #603a11;
+}
+.color-suvs {
+  background-color: #002f32;
+}
+.color-luxury {
+  background-color: #002121;
+}
+
+.title {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 40px;
+  margin: 35px 0 0 0;
+  margin-top: 35px;
+}
+
+.description {
+  width: 231px;
+  font-size: 15px;
+  margin: 25px 0 0 0;
+  line-height: 25px;
+}
+
+.learn-button {
+  display: inline-block;
+  background-color: #f2f2f2;
+  padding: 11px 31.5px;
+  border-radius: 40px;
+  margin-top: 25px;
+  margin-bottom: 0;
+}
+.sedan-button {
+  color: #e28625;
+}
+.suvs-button {
+  color: #006971;
+}
+.luxury-button {
+  color: #004140;
 }
